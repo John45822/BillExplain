@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.AIHubActivity">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="← Back"
+                android:textColor="@color/blue"
+                android:backgroundTint="@color/transparent"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="AI Assistant ✨" android:textSize="22sp" android:textStyle="bold"
+                android:textColor="@color/gray_900"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="What would you like to explore?"
+                android:textSize="13sp" android:textColor="@color/gray_500"
+                android:layout_marginTop="2dp" android:layout_marginBottom="16dp"/>
+
+            <!-- Premium badge -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/bg_premium_badge" android:orientation="horizontal"
+                android:padding="12dp" android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="★ " android:textSize="18sp" android:textColor="@color/gold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Premium Active" android:textSize="13sp"
+                    android:textStyle="bold" android:textColor="@color/gold"/>
+            </LinearLayout>
+
+            <!-- Two option cards -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="20dp">
+
+                <!-- Chat card -->
+                <LinearLayout android:id="@+id/cardChat"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:background="@drawable/bg_ai_option_card"
+                    android:orientation="vertical" android:gravity="center"
+                    android:padding="20dp" android:layout_marginEnd="6dp"
+                    android:clickable="true" android:focusable="true">
+                    <LinearLayout android:layout_width="52dp" android:layout_height="52dp"
+                        android:background="@drawable/bg_ai_icon_chat"
+                        android:gravity="center" android:layout_marginBottom="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="💬" android:textSize="24sp"/>
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Chat with AI" android:textSize="14sp"
+                        android:textStyle="bold" android:textColor="@color/gray_900"
+                        android:gravity="center"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Ask about your bill &amp; usage tips"
+                        android:textSize="11sp" android:textColor="@color/gray_500"
+                        android:gravity="center" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+
+                <!-- Analytics card -->
+                <LinearLayout android:id="@+id/cardAnalytics"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:background="@drawable/bg_ai_option_card"
+                    android:orientation="vertical" android:gravity="center"
+                    android:padding="20dp" android:layout_marginStart="6dp"
+                    android:clickable="true" android:focusable="true">
+                    <LinearLayout android:layout_width="52dp" android:layout_height="52dp"
+                        android:background="@drawable/bg_ai_icon_analytics"
+                        android:gravity="center" android:layout_marginBottom="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="📊" android:textSize="24sp"/>
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Analytics" android:textSize="14sp"
+                        android:textStyle="bold" android:textColor="@color/gray_900"
+                        android:gravity="center"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="View spending trends &amp; charts"
+                        android:textSize="11sp" android:textColor="@color/gray_500"
+                        android:gravity="center" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Quick Stats -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Quick Stats" android:textSize="15sp" android:textStyle="bold"
+                android:textColor="@color/gray_900" android:layout_marginBottom="10dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:background="@drawable/bg_total_card"
+                    android:orientation="vertical" android:gravity="center"
+                    android:padding="12dp" android:layout_marginEnd="5dp">
+                    <TextView android:id="@+id/tvStatThisMonth" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="₱3,250"
+                        android:textSize="17sp" android:textStyle="bold" android:textColor="@color/red"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="This Month" android:textSize="11sp"
+                        android:textColor="@color/gray_500" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:background="@drawable/bg_total_card"
+                    android:orientation="vertical" android:gravity="center"
+                    android:padding="12dp" android:layout_marginHorizontal="5dp">
+                    <TextView android:id="@+id/tvStatLastMonth" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="₱2,890"
+                        android:textSize="17sp" android:textStyle="bold" android:textColor="@color/green"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Last Month" android:textSize="11sp"
+                        android:textColor="@color/gray_500" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:background="@drawable/bg_total_card"
+                    android:orientation="vertical" android:gravity="center"
+                    android:padding="12dp" android:layout_marginStart="5dp">
+                    <TextView android:id="@+id/tvStatAvg" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="₱2,960"
+                        android:textSize="17sp" android:textStyle="bold" android:textColor="@color/gray_900"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="6mo Avg" android:textSize="11sp"
+                        android:textColor="@color/gray_500" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom nav (AI active) -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="@color/white"
+        android:elevation="8dp" android:paddingTop="12dp" android:paddingBottom="20dp">
+
+        <LinearLayout android:id="@+id/navHome" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="8dp"
+            android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⌂" android:textSize="22sp" android:textColor="@color/gray_400" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Home" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/navHistory" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="8dp"
+            android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="☰" android:textSize="20sp" android:textColor="@color/gray_400" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="History" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/navPay" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="8dp"
+            android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="💳" android:textSize="20sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Pay" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/navAi" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="8dp"
+            android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🤖" android:textSize="20sp" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="AI" android:textSize="11sp" android:textColor="@color/blue"
+                android:textStyle="bold" android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/navSettings" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="8dp"
+            android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⚙" android:textSize="20sp" android:textColor="@color/gray_400" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Settings" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

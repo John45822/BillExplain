@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:padding="13dp"
+    android:gravity="center_vertical" android:clickable="true" android:focusable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout android:id="@+id/billIcon" android:layout_width="40dp"
+        android:layout_height="40dp" android:background="@drawable/icon_bg_blue"
+        android:gravity="center" android:layout_marginEnd="12dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="⚡" android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/tvBillMonth" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="April 2026"
+            android:textSize="14sp" android:textStyle="bold" android:textColor="@color/gray_900"/>
+        <TextView android:id="@+id/tvBillDate" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Paid on Apr 25"
+            android:textSize="12sp" android:textColor="@color/gray_400" android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="end">
+        <TextView android:id="@+id/tvBillAmount" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="₱3,250"
+            android:textSize="15sp" android:textStyle="bold" android:textColor="@color/gray_900"/>
+        <TextView android:id="@+id/tvBillStatus" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Paid"
+            android:textSize="11sp" android:textStyle="bold" android:textColor="@color/green"
+            android:background="@drawable/tag_green"
+            android:paddingHorizontal="10dp" android:paddingVertical="3dp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</LinearLayout>

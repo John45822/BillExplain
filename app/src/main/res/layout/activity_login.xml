@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/bg_login_hero" android:orientation="vertical"
+            android:gravity="center" android:padding="36dp">
+
+            <LinearLayout android:layout_width="72dp" android:layout_height="72dp"
+                android:background="@drawable/bg_app_icon" android:gravity="center"
+                android:layout_marginBottom="14dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="⚡" android:textSize="34sp"/>
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="BillExplain" android:textSize="26sp" android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Your smart electric bill companion"
+                android:textSize="13sp" android:textColor="#BFDBFe" android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <!-- Form -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="24dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Email Address" style="@style/FormLabel"/>
+            <EditText android:id="@+id/etEmail" android:layout_width="match_parent"
+                android:layout_height="52dp" android:background="@drawable/bg_input"
+                android:hint="maria@email.com" android:inputType="textEmailAddress"
+                android:padding="14dp" android:textSize="15sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Password" style="@style/FormLabel"/>
+            <EditText android:id="@+id/etPassword" android:layout_width="match_parent"
+                android:layout_height="52dp" android:background="@drawable/bg_input"
+                android:hint="••••••••" android:inputType="textPassword"
+                android:padding="14dp" android:textSize="15sp"
+                android:layout_marginBottom="24dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSignIn" style="@style/BtnPrimary"
+                android:text="Sign In" android:layout_marginBottom="20dp"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:gravity="center" android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Don't have an account? " android:textSize="14sp"
+                    android:textColor="@color/gray_500"/>
+                <TextView android:id="@+id/tvRegister" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Register"
+                    android:textSize="14sp" android:textColor="@color/blue"
+                    android:textStyle="bold" android:clickable="true" android:focusable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

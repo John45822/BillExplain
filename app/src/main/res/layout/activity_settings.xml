@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.SettingsActivity">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="← Back"
+                android:textColor="@color/blue"
+                android:backgroundTint="@color/transparent"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Settings" android:textSize="22sp" android:textStyle="bold"
+                android:textColor="@color/gray_900" android:layout_marginBottom="16dp"/>
+
+            <!-- Premium badge (conditionally shown) -->
+            <LinearLayout android:id="@+id/cardPremiumBadge"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/bg_premium_badge" android:orientation="horizontal"
+                android:padding="12dp" android:gravity="center_vertical"
+                android:layout_marginBottom="14dp" android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="★ " android:textSize="18sp" android:textColor="@color/gold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Premium Active · Renews May 1"
+                    android:textSize="13sp" android:textStyle="bold" android:textColor="@color/gold"/>
+            </LinearLayout>
+
+            <!-- Account section -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="ACCOUNT" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/gray_400" android:letterSpacing="0.08"
+                android:layout_marginBottom="4dp"/>
+
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+                app:cardElevation="2dp" app:strokeColor="@color/gray_100" app:strokeWidth="1dp"
+                android:layout_marginBottom="14dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:paddingHorizontal="16dp">
+
+                    <!-- Profile row -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="14dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/bg_settings_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="👤" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Profile Settings" android:textSize="14sp"
+                                android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Update your info" android:textSize="12sp"
+                                android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="›" android:textSize="20sp" android:textColor="@color/gray_300"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/gray_100"/>
+
+                    <!-- Meter row -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="14dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/bg_settings_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="📟" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Meter Number" android:textSize="14sp"
+                                android:textColor="@color/gray_900"/>
+                            <TextView android:id="@+id/tvMeterSub" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12345-678-9 · Verified ✓"
+                                android:textSize="12sp" android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="›" android:textSize="20sp" android:textColor="@color/gray_300"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Notifications section -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="NOTIFICATIONS" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/gray_400" android:letterSpacing="0.08"
+                android:layout_marginBottom="4dp"/>
+
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+                app:cardElevation="2dp" app:strokeColor="@color/gray_100" app:strokeWidth="1dp"
+                android:layout_marginBottom="14dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:paddingHorizontal="16dp">
+
+                    <!-- Bill Alerts -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="14dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/bg_settings_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🔔" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Bill Alerts" android:textSize="14sp"
+                                android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Get notified when bill arrives"
+                                android:textSize="12sp" android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/toggleBillAlerts"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:checked="true"/>
+                    </LinearLayout>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/gray_100"/>
+
+                    <!-- Payment Reminders -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="14dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/bg_settings_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="📅" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Payment Reminders" android:textSize="14sp"
+                                android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Remind me before due date"
+                                android:textSize="12sp" android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/toggleReminders"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:checked="false"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- App section -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="APP" android:textSize="11sp" android:textStyle="bold"
+                android:textColor="@color/gray_400" android:letterSpacing="0.08"
+                android:layout_marginBottom="4dp"/>
+
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+                app:cardElevation="2dp" app:strokeColor="@color/gray_100" app:strokeWidth="1dp"
+                android:layout_marginBottom="14dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:paddingVertical="14dp" android:paddingHorizontal="16dp">
+                    <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                        android:background="@drawable/bg_settings_icon" android:gravity="center"
+                        android:layout_marginEnd="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="ℹ" android:textSize="16sp"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Version" android:textSize="14sp"
+                            android:textColor="@color/gray_900"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="v1.3.0" android:textSize="12sp"
+                            android:textColor="@color/gray_400"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Logout -->
+            <Button android:id="@+id/btnLogout" android:layout_width="match_parent"
+                android:layout_height="52dp" android:background="@drawable/bg_logout_btn"
+                android:text="Log Out" android:textColor="@color/red"
+                android:textSize="15sp" android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

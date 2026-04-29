@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.PremiumActivity">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnBack"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="← Back" android:textColor="@color/blue"
+                android:backgroundTint="@color/transparent" android:textSize="14sp"
+                android:layout_marginBottom="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Premium Plan" android:textSize="22sp" android:textStyle="bold"
+                android:textColor="@color/gray_900" android:layout_marginBottom="20dp"/>
+
+            <!-- Premium Hero Card -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/bg_premium_hero" android:orientation="vertical"
+                android:gravity="center" android:padding="28dp" android:layout_marginBottom="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="👑" android:textSize="44sp" android:layout_marginBottom="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="BillExplain Premium" android:textSize="22sp"
+                    android:textStyle="bold" android:textColor="#FDE68A"/>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:layout_marginTop="10dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="₱59" android:textSize="36sp" android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="/month" android:textSize="18sp"
+                        android:textColor="#99FFFFFF" android:layout_marginStart="2dp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Cancel anytime" android:textSize="13sp"
+                    android:textColor="#99FFFFFF" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Perks -->
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+                app:cardElevation="2dp" app:strokeColor="@color/gray_100" app:strokeWidth="1dp"
+                android:layout_marginBottom="16dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:paddingHorizontal="16dp">
+
+                    <!-- Perk 1 -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="12dp">
+                        <LinearLayout android:layout_width="36dp" android:layout_height="36dp"
+                            android:background="@drawable/bg_perk_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🤖" android:textSize="18sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="AI Bill Chat" android:textSize="14sp"
+                                android:textStyle="bold" android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Ask anything in plain language" android:textSize="12sp"
+                                android:textColor="@color/gray_500" android:layout_marginTop="1dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_100"/>
+
+                    <!-- Perk 2 -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="12dp">
+                        <LinearLayout android:layout_width="36dp" android:layout_height="36dp"
+                            android:background="@drawable/bg_perk_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="📊" android:textSize="18sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Spending Analytics" android:textSize="14sp"
+                                android:textStyle="bold" android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Line &amp; bar charts of bill history" android:textSize="12sp"
+                                android:textColor="@color/gray_500" android:layout_marginTop="1dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_100"/>
+
+                    <!-- Perk 3 -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="12dp">
+                        <LinearLayout android:layout_width="36dp" android:layout_height="36dp"
+                            android:background="@drawable/bg_perk_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="📈" android:textSize="18sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Trend Insights" android:textSize="14sp"
+                                android:textStyle="bold" android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Know spikes before the bill arrives" android:textSize="12sp"
+                                android:textColor="@color/gray_500" android:layout_marginTop="1dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_100"/>
+
+                    <!-- Perk 4 -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="12dp">
+                        <LinearLayout android:layout_width="36dp" android:layout_height="36dp"
+                            android:background="@drawable/bg_perk_icon" android:gravity="center"
+                            android:layout_marginEnd="12dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🔔" android:textSize="18sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Smart Bill Alerts" android:textSize="14sp"
+                                android:textStyle="bold" android:textColor="@color/gray_900"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Proactive usage notifications" android:textSize="12sp"
+                                android:textColor="@color/gray_500" android:layout_marginTop="1dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="🔒 Payment secured by SSL encryption"
+                android:textSize="12sp" android:textColor="@color/gray_500"
+                android:gravity="center" android:background="@drawable/bg_total_card"
+                android:padding="12dp" android:layout_marginBottom="16dp"/>
+
+            <Button android:id="@+id/btnUnlock" android:layout_width="match_parent"
+                android:layout_height="52dp" android:background="@drawable/bg_btn_gold"
+                android:text="Unlock Premium — ₱59/mo" android:textColor="@color/white"
+                android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="By subscribing you agree to our Terms of Service"
+                android:textSize="12sp" android:textColor="@color/gray_400"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

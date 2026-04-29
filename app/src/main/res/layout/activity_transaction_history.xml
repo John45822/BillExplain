@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.TransactionHistoryActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:paddingHorizontal="20dp" android:paddingTop="16dp"
+        android:paddingBottom="8dp" android:background="@color/white" android:elevation="2dp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnBack"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="← Back" android:textColor="@color/blue"
+            android:backgroundTint="@color/transparent" android:textSize="14sp"
+            android:layout_marginBottom="4dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Transaction History" android:textSize="22sp" android:textStyle="bold"
+            android:textColor="@color/gray_900" android:layout_marginBottom="8dp"/>
+
+        <!-- Summary row -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="All transactions · 2026"
+                android:textSize="13sp" android:textColor="@color/gray_500"/>
+            <TextView android:id="@+id/tvCount" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="6 records"
+                android:background="@drawable/tag_blue" android:textColor="@color/blue"
+                android:textSize="11sp" android:textStyle="bold"
+                android:paddingHorizontal="10dp" android:paddingVertical="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Transactions list -->
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvTransactions"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:paddingHorizontal="20dp"
+        android:paddingTop="8dp" android:overScrollMode="never"
+        android:clipToPadding="false"/>
+
+    <!-- Total card -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/bg_total_card" android:orientation="vertical"
+        android:gravity="center" android:paddingVertical="14dp"
+        android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Total paid this year" android:textSize="12sp"
+            android:textColor="@color/gray_500"/>
+        <TextView android:id="@+id/tvTotal" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="₱14,569"
+            android:textSize="24sp" android:textStyle="bold"
+            android:textColor="@color/gray_900" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</LinearLayout>

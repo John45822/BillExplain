@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#2563EB</color>
+    <color name="blue_dark">#1D4ED8</color>
+    <color name="blue_light">#EFF6FF</color>
+    <color name="blue_mid">#BFDBFE</color>
+    <color name="gold">#D97706</color>
+    <color name="gold_dark">#92400E</color>
+    <color name="gold_light">#FEF3C7</color>
+    <color name="gold_text">#FDE68A</color>
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_50">#F9FAFB</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_900">#111827</color>
+    <color name="green">#22C55E</color>
+    <color name="green_light">#F0FDF4</color>
+    <color name="navy">#0F172A</color>
+    <color name="purple">#7C3AED</color>
+    <color name="purple_light">#F5F3FF</color>
+    <color name="red">#EF4444</color>
+    <color name="red_light">#FEF2F2</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">BillExplain</string>
+    <style name="BtnBack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+    <style name="BtnGold">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+    <style name="BtnPrimary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+    <style name="CardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeColor">@color/gray_100</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="FormLabel">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="NavItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="NavText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/gray_400</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+    <style name="SectionTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="Theme.BillExplain" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.BillExplain.Splash" parent="Theme.BillExplain">
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/blue</item>
+    </style>
+</resources>

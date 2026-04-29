@@ -130,31 +130,36 @@
             android:layout_height="wrap_content" android:layout_weight="1"
             android:orientation="vertical" android:gravity="center" android:padding="8dp"
             android:clickable="true" android:focusable="true">
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="⌂" android:textSize="22sp" android:textColor="@color/blue" android:gravity="center"/>
+            <TextView android:layout_width="24dp" android:layout_height="24dp"
+                android:text="⌂" android:textSize="20sp" android:textColor="@color/blue"
+                android:gravity="center"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:text="Home" android:textSize="11sp" android:textColor="@color/blue"
-                android:textStyle="bold" android:gravity="center"/>
+                android:textStyle="bold" android:gravity="center" android:layout_marginTop="5dp"/>
         </LinearLayout>
 
         <LinearLayout android:id="@+id/navHistory" android:layout_width="0dp"
             android:layout_height="wrap_content" android:layout_weight="1"
             android:orientation="vertical" android:gravity="center" android:padding="8dp"
             android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="24dp" android:layout_height="24dp"
+                android:text="☰" android:textSize="20sp" android:textColor="@color/gray_400"
+                android:gravity="center"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="☰" android:textSize="20sp" android:textColor="@color/gray_400" android:gravity="center"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="History" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+                android:text="History" android:textSize="11sp" android:textColor="@color/gray_400"
+                android:gravity="center" android:layout_marginTop="5dp"/>
         </LinearLayout>
 
         <LinearLayout android:id="@+id/navPay" android:layout_width="0dp"
             android:layout_height="wrap_content" android:layout_weight="1"
             android:orientation="vertical" android:gravity="center" android:padding="8dp"
             android:clickable="true" android:focusable="true">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/icon_payment"
+                android:scaleType="centerInside"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="💳" android:textSize="20sp" android:gravity="center"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="Pay" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+                android:text="Pay" android:textSize="11sp" android:textColor="@color/gray_400"
+                android:gravity="center" android:layout_marginTop="3dp"/>
         </LinearLayout>
 
         <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content"
@@ -163,10 +168,12 @@
                 android:layout_height="wrap_content" android:orientation="vertical"
                 android:gravity="center" android:padding="8dp"
                 android:clickable="true" android:focusable="true">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                    android:src="@drawable/icon_ai_chat"
+                    android:scaleType="centerInside"/>
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="🤖" android:textSize="20sp" android:gravity="center"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                    android:text="AI" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+                    android:text="AI" android:textSize="11sp" android:textColor="@color/gray_400"
+                    android:gravity="center" android:layout_marginTop="3dp"/>
             </LinearLayout>
             <TextView android:id="@+id/ivAiLock" android:layout_width="16dp"
                 android:layout_height="16dp" android:background="@drawable/bg_round_gold"
@@ -179,10 +186,12 @@
             android:layout_height="wrap_content" android:layout_weight="1"
             android:orientation="vertical" android:gravity="center" android:padding="8dp"
             android:clickable="true" android:focusable="true">
+            <TextView android:layout_width="24dp" android:layout_height="24dp"
+                android:text="⚙" android:textSize="20sp" android:textColor="@color/gray_400"
+                android:gravity="center"/>
             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="⚙" android:textSize="20sp" android:textColor="@color/gray_400" android:gravity="center"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="Settings" android:textSize="11sp" android:textColor="@color/gray_400" android:gravity="center"/>
+                android:text="Settings" android:textSize="11sp" android:textColor="@color/gray_400"
+                android:gravity="center" android:layout_marginTop="5dp"/>
         </LinearLayout>
 
     </LinearLayout>

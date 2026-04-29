@@ -3062,10 +3062,12 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_qr_code
 drawable ic_search_black_24
+drawable icon_ai_chat
 drawable icon_bg_blue
 drawable icon_bg_green
 drawable icon_bg_purple
 drawable icon_bg_yellow
+drawable icon_payment
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle

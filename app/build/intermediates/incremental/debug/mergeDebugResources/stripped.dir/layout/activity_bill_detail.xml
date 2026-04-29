@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.BillDetailActivity">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="← Back"
+                android:textColor="@color/blue" android:backgroundTint="@color/transparent"
+                android:textSize="14sp" android:layout_marginBottom="4dp"/>
+
+            <TextView android:id="@+id/tvTitle" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="April 2026 Bill"
+                android:textSize="22sp" android:textStyle="bold"
+                android:textColor="@color/gray_900" android:layout_marginBottom="16dp"/>
+
+            <!-- Amount hero -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:gravity="center" android:paddingVertical="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Total Amount Due" android:textSize="13sp"
+                    android:textColor="@color/gray_500"/>
+                <TextView android:id="@+id/tvTotalAmount" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="₱3,250"
+                    android:textSize="40sp" android:textStyle="bold"
+                    android:textColor="@color/gray_900" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Charges card -->
+            <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+                app:cardElevation="2dp" app:strokeColor="@color/gray_100" app:strokeWidth="1dp"
+                android:layout_marginBottom="16dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:paddingHorizontal="16dp">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="CHARGE BREAKDOWN" android:textSize="11sp" android:textStyle="bold"
+                        android:textColor="@color/gray_500" android:letterSpacing="0.07"
+                        android:paddingTop="12dp" android:paddingBottom="4dp"/>
+
+                    <!-- Generation -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="13dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/icon_bg_blue" android:gravity="center"
+                            android:layout_marginEnd="10dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="⚡" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Generation Charge" android:textSize="14sp"
+                                android:textColor="@color/gray_800"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Cost to produce electricity" android:textSize="11sp"
+                                android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <TextView android:id="@+id/tvGenAmount" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="₱1,200"
+                            android:textSize="15sp" android:textStyle="bold" android:textColor="@color/blue"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_100"/>
+
+                    <!-- Transmission -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="13dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/icon_bg_purple" android:gravity="center"
+                            android:layout_marginEnd="10dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🔌" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Transmission Charge" android:textSize="14sp"
+                                android:textColor="@color/gray_800"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Transport to your area" android:textSize="11sp"
+                                android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <TextView android:id="@+id/tvTransAmount" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="₱450"
+                            android:textSize="15sp" android:textStyle="bold" android:textColor="@color/blue"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_100"/>
+
+                    <!-- Distribution -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="13dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/icon_bg_green" android:gravity="center"
+                            android:layout_marginEnd="10dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🏠" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Distribution Charge" android:textSize="14sp"
+                                android:textColor="@color/gray_800"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Delivery to your home" android:textSize="11sp"
+                                android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <TextView android:id="@+id/tvDistAmount" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="₱680"
+                            android:textSize="15sp" android:textStyle="bold" android:textColor="@color/blue"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_100"/>
+
+                    <!-- Other -->
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical"
+                        android:paddingVertical="13dp">
+                        <LinearLayout android:layout_width="34dp" android:layout_height="34dp"
+                            android:background="@drawable/icon_bg_yellow" android:gravity="center"
+                            android:layout_marginEnd="10dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="ℹ" android:textSize="16sp"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Other Charges" android:textSize="14sp"
+                                android:textColor="@color/gray_800"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Taxes &amp; subsidies" android:textSize="11sp"
+                                android:textColor="@color/gray_400"/>
+                        </LinearLayout>
+                        <TextView android:id="@+id/tvOtherAmount" android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:text="₱920"
+                            android:textSize="15sp" android:textStyle="bold" android:textColor="@color/blue"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Alert -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/bg_alert" android:orientation="horizontal"
+                android:padding="13dp" android:gravity="top" android:layout_marginBottom="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="⚠" android:textSize="18sp" android:textColor="@color/red"
+                    android:layout_marginEnd="10dp" android:layout_marginTop="2dp"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Usage spike detected" android:textSize="13sp"
+                        android:textStyle="bold" android:textColor="@color/red"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="15% higher than last month. Check AC usage and water heater."
+                        android:textSize="12sp" android:textColor="#B91C1C" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPay" style="@style/BtnPrimary"
+                android:text="Pay ₱3,250"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

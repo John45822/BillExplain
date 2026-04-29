@@ -13,7 +13,10 @@
             android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="← Back" android:textColor="@color/blue"
             android:backgroundTint="@color/transparent" android:textSize="14sp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginBottom="4dp"
+            app:strokeWidth="0dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="Transaction History" android:textSize="22sp" android:textStyle="bold"
             android:textColor="@color/gray_900" android:layout_marginBottom="8dp"/>

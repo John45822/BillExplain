@@ -1,306 +1,306 @@
 [
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_card.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_card.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_avatar.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_avatar.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_chip_selected.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\chip_selected.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_card.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_card.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_hero_tag.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_hero_tag.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_qr.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_qr.xml"
     },
     {
         "merged": "com.billexplain.app-merged_res-31:/layout_activity_payment.xml.flat",
         "source": "com.billexplain.app-main-33:/layout/activity_payment.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_avatar.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_avatar.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_splash.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_tag_red.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\tag_red.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_app_icon.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_app_icon.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chart_btn.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chart_btn.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_icon_payment.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/icon_payment.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_analytics.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_analytics.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_tag_red.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/tag_red.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_bottom_nav_ai.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\bottom_nav_ai.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chart_btn.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chart_btn.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_total_card.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_total_card.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_perk_icon.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_perk_icon.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_bottom_nav_home.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/bottom_nav_home.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chart_btn_active.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chart_btn_active.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-xxhdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_login_hero.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_login_hero.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_splash.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_icon_bg_green.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/icon_bg_green.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-hdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-hdpi\\ic_launcher.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chart_toggle.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chart_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chat_ai.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chat_ai.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_round_blue.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_round_blue.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_splash_icon.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_splash_icon.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_btn_gold.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_btn_gold.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_logout_btn.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_logout_btn.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_premium_banner.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_premium_banner.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chat_input.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chat_input.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_ai_option_card.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_ai_option_card.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_chat.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/layout_item_chat_ai.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/item_chat_ai.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_divider.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/divider.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_ai_hub.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_ai_hub.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_chip_selected.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/chip_selected.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_tag_blue.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/tag_blue.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/layout_bottom_nav_ai.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/bottom_nav_ai.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_icon_bg_yellow.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/icon_bg_yellow.xml"
+    },
+    {
+        "merged": "com.billexplain.app-merged_res-31:/drawable_tag_green.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/tag_green.xml"
     },
     {
         "merged": "com.billexplain.app-merged_res-31:/layout_activity_register.xml.flat",
         "source": "com.billexplain.app-main-33:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_round_blue.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_round_blue.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chat_user.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chat_user.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_settings_icon.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_settings_icon.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chip_suggestion.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chip_suggestion.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_premium.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_premium.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-mdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chart_toggle.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chart_toggle.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_total_card.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_total_card.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_login.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_premium_hero.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_premium_hero.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-xhdpi\\ic_launcher.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_alert.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_alert.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_qr.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_qr.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_icon_bg_purple.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/icon_bg_purple.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_ic_qr_code.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\ic_qr_code.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_settings.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chat_user.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chat_user.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_item_bill_row.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/item_bill_row.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_premium_banner.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_premium_banner.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-mdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-xxhdpi\\ic_launcher.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_chip_default.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/chip_default.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_tag_gold.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\tag_gold.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_login_hero.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_login_hero.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_input.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_input.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_login.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_premium_badge.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_premium_badge.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-hdpi/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_item_bill_row.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_bill_row.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_bill_detail.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_bill_detail.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_transaction_history.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_transaction_history.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_icon_bg_blue.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/icon_bg_blue.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_ai_option_card.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_ai_option_card.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_avatar_ai.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_avatar_ai.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_avatar_ai.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_avatar_ai.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_ai_icon_analytics.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_ai_icon_analytics.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-xhdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_ai_hub.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_ai_hub.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_round_gold.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_round_gold.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chat_input.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chat_input.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_analytics.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_analytics.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_icon_bg_yellow.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\icon_bg_yellow.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_ai_icon_analytics.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_ai_icon_analytics.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_ai_icon_chat.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_ai_icon_chat.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_item_transaction.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/item_transaction.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_settings.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-hdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_item_chat_user.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_chat_user.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_transaction_history.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_transaction_history.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_payment.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_payment.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_item_chat_user.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/item_chat_user.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_item_chat_ai.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_chat_ai.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_settings_icon.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_settings_icon.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-hdpi\\ic_launcher_round.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_tag_gold.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/tag_gold.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_register.xml"
+        "merged": "com.billexplain.app-merged_res-31:/layout_activity_premium.xml.flat",
+        "source": "com.billexplain.app-main-33:/layout/activity_premium.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-mdpi\\ic_launcher_round.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_ic_qr_code.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/ic_qr_code.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_bill_detail.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_bill_detail.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-xxhdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_chip_suggestion.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_chip_suggestion.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_tag_green.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\tag_green.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_hero_tag.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_hero_tag.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.billexplain.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.billexplain.app-main-33:/mipmap-xxxhdpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_icon_bg_purple.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\icon_bg_purple.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chat_ai.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chat_ai.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_app_icon.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_app_icon.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_logout_btn.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_logout_btn.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_bottom_nav_home.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\bottom_nav_home.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_hero_bill.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_hero_bill.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_btn_gold.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_btn_gold.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_chart_btn_active.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_chart_btn_active.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_item_transaction.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_transaction.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_input.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_input.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_hero_bill.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_hero_bill.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_splash_icon.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_splash_icon.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_icon_bg_green.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\icon_bg_green.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_premium_badge.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_premium_badge.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_perk_icon.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_perk_icon.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_icon_ai_chat.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/icon_ai_chat.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_tag_blue.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\tag_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_divider.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\divider.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_premium_hero.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_premium_hero.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_chip_default.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\chip_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_icon_bg_blue.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\icon_bg_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-mdpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-mdpi\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_alert.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_alert.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\drawable_bg_round_gold.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\drawable\\bg_round_gold.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-merged_res-31:\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_chat.xml"
+        "merged": "com.billexplain.app-merged_res-31:/drawable_bg_ai_icon_chat.xml.flat",
+        "source": "com.billexplain.app-main-33:/drawable/bg_ai_icon_chat.xml"
     }
 ]

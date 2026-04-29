@@ -1,79 +1,71 @@
 [
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\item_chat_user.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_chat_user.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/item_bill_row.xml",
+        "source": "com.billexplain.app-main-33:/layout/item_bill_row.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\item_bill_row.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_bill_row.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/item_transaction.xml",
+        "source": "com.billexplain.app-main-33:/layout/item_transaction.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_bill_detail.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_bill_detail.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/item_chat_user.xml",
+        "source": "com.billexplain.app-main-33:/layout/item_chat_user.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_login.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_transaction_history.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_transaction_history.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_transaction_history.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_transaction_history.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/item_chat_ai.xml",
+        "source": "com.billexplain.app-main-33:/layout/item_chat_ai.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_chat.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_chat.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_chat.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_chat.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\bottom_nav_home.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\bottom_nav_home.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_settings.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\item_transaction.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_transaction.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_login.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_settings.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_settings.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/bottom_nav_home.xml",
+        "source": "com.billexplain.app-main-33:/layout/bottom_nav_home.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_splash.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_bill_detail.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_bill_detail.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_main.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_splash.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_main.xml"
     },
     {
         "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_payment.xml",
         "source": "com.billexplain.app-main-33:/layout/activity_payment.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\item_chat_ai.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\item_chat_ai.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_premium.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_premium.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\bottom_nav_ai.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\bottom_nav_ai.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_analytics.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_analytics.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_ai_hub.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_ai_hub.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/bottom_nav_ai.xml",
+        "source": "com.billexplain.app-main-33:/layout/bottom_nav_ai.xml"
     },
     {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_analytics.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_analytics.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_premium.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_premium.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-mergeDebugResources-30:\\layout\\activity_payment.xml",
-        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.10\\com.billexplain.app-main-33:\\layout\\activity_payment.xml"
+        "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_ai_hub.xml",
+        "source": "com.billexplain.app-main-33:/layout/activity_ai_hub.xml"
     },
     {
         "merged": "com.billexplain.app-mergeDebugResources-30:/layout/activity_register.xml",

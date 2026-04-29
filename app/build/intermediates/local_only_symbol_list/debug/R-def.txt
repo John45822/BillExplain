@@ -63,10 +63,12 @@ drawable chip_selected
 drawable divider
 drawable ic_launcher_foreground
 drawable ic_qr_code
+drawable icon_ai_chat
 drawable icon_bg_blue
 drawable icon_bg_green
 drawable icon_bg_purple
 drawable icon_bg_yellow
+drawable icon_payment
 drawable tag_blue
 drawable tag_gold
 drawable tag_green

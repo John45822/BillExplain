@@ -29,8 +29,9 @@
     <!-- Pay -->
     <LinearLayout android:id="@+id/navPay" style="@style/NavItem"
         android:clickable="true" android:focusable="true">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="💳" android:textSize="20sp" android:gravity="center"/>
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+            android:src="@drawable/icon_payment"
+            android:scaleType="centerInside"/>
         <TextView style="@style/NavText" android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:text="Pay"/>
     </LinearLayout>
@@ -42,8 +43,9 @@
             android:layout_height="wrap_content" android:orientation="vertical"
             android:gravity="center" android:padding="8dp"
             android:clickable="true" android:focusable="true">
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="🤖" android:textSize="20sp" android:gravity="center"/>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                android:src="@drawable/icon_ai_chat"
+                android:scaleType="centerInside"/>
             <TextView style="@style/NavText" android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:text="AI"/>
         </LinearLayout>

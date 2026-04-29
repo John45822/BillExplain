@@ -20,16 +20,19 @@
 
     <LinearLayout android:id="@+id/navPay" style="@style/NavItem"
         android:clickable="true" android:focusable="true">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="💳" android:textSize="20sp" android:gravity="center"/>
-        <TextView style="@style/NavText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pay"/>
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+            android:src="@drawable/icon_payment"
+            android:scaleType="centerInside"/>
+        <TextView style="@style/NavText" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Pay"/>
     </LinearLayout>
 
     <!-- AI — active -->
     <LinearLayout android:id="@+id/navAi" style="@style/NavItem"
         android:clickable="true" android:focusable="true">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="🤖" android:textSize="20sp" android:gravity="center"/>
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+            android:src="@drawable/icon_ai_chat"
+            android:scaleType="centerInside"/>
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="AI" android:textSize="11sp" android:textColor="@color/blue"
             android:textStyle="bold" android:gravity="center"/>

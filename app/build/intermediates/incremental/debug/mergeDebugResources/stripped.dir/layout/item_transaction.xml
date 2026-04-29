@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:paddingVertical="13dp"
+    android:gravity="center_vertical">
+
+    <TextView android:id="@+id/tvIcon" android:layout_width="40dp"
+        android:layout_height="40dp" android:background="@drawable/icon_bg_blue"
+        android:text="⚡" android:textSize="18sp" android:gravity="center"
+        android:layout_marginEnd="12dp"/>
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView android:id="@+id/tvName" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="April 2026 Bill"
+            android:textSize="14sp" android:textStyle="bold" android:textColor="@color/gray_900"/>
+        <TextView android:id="@+id/tvDate" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Apr 25, 2026 · Via GCash"
+            android:textSize="12sp" android:textColor="@color/gray_400"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/tvAmount" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="-₱3,250"
+        android:textSize="15sp" android:textStyle="bold" android:textColor="@color/green"/>
+</LinearLayout>
